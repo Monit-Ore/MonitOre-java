@@ -1,0 +1,789 @@
+set. 04, 2026 10:44:44 AM AgenteMonitorOre main
+INFORMAÇÕES: ========================================
+set. 04, 2026 10:44:44 AM AgenteMonitorOre main
+INFORMAÇÕES: Agente Monitor Ore iniciado
+set. 04, 2026 10:44:44 AM AgenteMonitorOre main
+INFORMAÇÕES: Torre: TORRE-001
+set. 04, 2026 10:44:44 AM AgenteMonitorOre main
+INFORMAÇÕES: Servidor: SERVIDOR-001
+set. 04, 2026 10:44:44 AM AgenteMonitorOre main
+INFORMAÇÕES: Data e hora: 2026-09-04T10:44:44.676688100
+set. 04, 2026 10:44:44 AM AgenteMonitorOre main
+INFORMAÇÕES: ========================================
+set. 04, 2026 10:44:44 AM AgenteMonitorOre validarConfiguracao
+INFORMAÇÕES: Validando configurações do agente
+set. 04, 2026 10:44:44 AM AgenteMonitorOre validarConfiguracao
+INFORMAÇÕES: Configurações validadas com sucesso
+set. 04, 2026 10:44:44 AM AgenteMonitorOre main
+INFORMAÇÕES: Iniciando ciclo de monitoramento: 1
+set. 04, 2026 10:44:44 AM AgenteMonitorOre coletarMetricas
+INFORMAÇÕES: Coletando métricas do servidor
+set. 04, 2026 10:44:44 AM AgenteMonitorOre registrarMetricas
+INFORMAÇÕES: Métricas | Torre=TORRE-001 | Servidor=SERVIDOR-001 | CPU=90,73% | Memória=27,99% | Disco=82,84% | Temperatura=91,55°C | Horário=2026-09-04T10:44:44.722697200
+set. 04, 2026 10:44:44 AM AgenteMonitorOre verificarAnomalias
+INFORMAÇÕES: Verificando possíveis anomalias
+set. 04, 2026 10:44:44 AM AgenteMonitorOre verificarAnomalias
+ADVERTÊNCIA: ALERTA: CPU acima do limite | Valor=90,73% | Limite=80,00%
+set. 04, 2026 10:44:44 AM AgenteMonitorOre verificarAnomalias
+ADVERTÊNCIA: ALERTA: temperatura acima do limite | Valor=91,55°C | Limite=80,00°C
+set. 04, 2026 10:44:44 AM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Enviando métricas para a API do Monitor Ore
+set. 04, 2026 10:44:44 AM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Métricas enviadas com sucesso | Horário da coleta: 2026-09-04T10:44:44.722697200
+set. 04, 2026 10:44:44 AM AgenteMonitorOre main
+INFORMAÇÕES: Ciclo 1 finalizado
+set. 04, 2026 10:44:54 AM AgenteMonitorOre main
+INFORMAÇÕES: Iniciando ciclo de monitoramento: 2
+set. 04, 2026 10:44:54 AM AgenteMonitorOre coletarMetricas
+INFORMAÇÕES: Coletando métricas do servidor
+set. 04, 2026 10:44:54 AM AgenteMonitorOre registrarMetricas
+INFORMAÇÕES: Métricas | Torre=TORRE-001 | Servidor=SERVIDOR-001 | CPU=79,25% | Memória=76,15% | Disco=36,07% | Temperatura=77,96°C | Horário=2026-09-04T10:44:54.741633600
+set. 04, 2026 10:44:54 AM AgenteMonitorOre verificarAnomalias
+INFORMAÇÕES: Verificando possíveis anomalias
+set. 04, 2026 10:44:54 AM AgenteMonitorOre verificarAnomalias
+ADVERTÊNCIA: ALERTA: memória acima do limite | Valor=76,15% | Limite=75,00%
+set. 04, 2026 10:44:54 AM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Enviando métricas para a API do Monitor Ore
+set. 04, 2026 10:44:54 AM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Métricas enviadas com sucesso | Horário da coleta: 2026-09-04T10:44:54.741633600
+set. 04, 2026 10:44:54 AM AgenteMonitorOre main
+INFORMAÇÕES: Ciclo 2 finalizado
+set. 04, 2026 10:45:04 AM AgenteMonitorOre main
+INFORMAÇÕES: Iniciando ciclo de monitoramento: 3
+set. 04, 2026 10:45:04 AM AgenteMonitorOre coletarMetricas
+INFORMAÇÕES: Coletando métricas do servidor
+set. 04, 2026 10:45:04 AM AgenteMonitorOre registrarMetricas
+INFORMAÇÕES: Métricas | Torre=TORRE-001 | Servidor=SERVIDOR-001 | CPU=58,12% | Memória=0,25% | Disco=10,97% | Temperatura=64,90°C | Horário=2026-09-04T10:45:04.761339100
+set. 04, 2026 10:45:04 AM AgenteMonitorOre verificarAnomalias
+INFORMAÇÕES: Verificando possíveis anomalias
+set. 04, 2026 10:45:04 AM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Enviando métricas para a API do Monitor Ore
+set. 04, 2026 10:45:04 AM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Métricas enviadas com sucesso | Horário da coleta: 2026-09-04T10:45:04.761339100
+set. 04, 2026 10:45:04 AM AgenteMonitorOre main
+INFORMAÇÕES: Ciclo 3 finalizado
+set. 04, 2026 10:45:14 AM AgenteMonitorOre main
+INFORMAÇÕES: Iniciando ciclo de monitoramento: 4
+set. 04, 2026 10:45:14 AM AgenteMonitorOre coletarMetricas
+INFORMAÇÕES: Coletando métricas do servidor
+set. 04, 2026 10:45:14 AM AgenteMonitorOre registrarMetricas
+INFORMAÇÕES: Métricas | Torre=TORRE-001 | Servidor=SERVIDOR-001 | CPU=58,88% | Memória=18,59% | Disco=96,28% | Temperatura=44,72°C | Horário=2026-09-04T10:45:14.774585800
+set. 04, 2026 10:45:14 AM AgenteMonitorOre verificarAnomalias
+INFORMAÇÕES: Verificando possíveis anomalias
+set. 04, 2026 10:45:14 AM AgenteMonitorOre verificarAnomalias
+ADVERTÊNCIA: ALERTA: disco acima do limite | Valor=96,28% | Limite=90,00%
+set. 04, 2026 10:45:14 AM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Enviando métricas para a API do Monitor Ore
+set. 04, 2026 10:45:14 AM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Métricas enviadas com sucesso | Horário da coleta: 2026-09-04T10:45:14.774585800
+set. 04, 2026 10:45:14 AM AgenteMonitorOre main
+INFORMAÇÕES: Ciclo 4 finalizado
+set. 04, 2026 10:45:24 AM AgenteMonitorOre main
+INFORMAÇÕES: Iniciando ciclo de monitoramento: 5
+set. 04, 2026 10:45:24 AM AgenteMonitorOre coletarMetricas
+INFORMAÇÕES: Coletando métricas do servidor
+set. 04, 2026 10:45:24 AM AgenteMonitorOre registrarMetricas
+INFORMAÇÕES: Métricas | Torre=TORRE-001 | Servidor=SERVIDOR-001 | CPU=63,68% | Memória=15,30% | Disco=88,59% | Temperatura=83,81°C | Horário=2026-09-04T10:45:24.785875700
+set. 04, 2026 10:45:24 AM AgenteMonitorOre verificarAnomalias
+INFORMAÇÕES: Verificando possíveis anomalias
+set. 04, 2026 10:45:24 AM AgenteMonitorOre verificarAnomalias
+ADVERTÊNCIA: ALERTA: temperatura acima do limite | Valor=83,81°C | Limite=80,00°C
+set. 04, 2026 10:45:24 AM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Enviando métricas para a API do Monitor Ore
+set. 04, 2026 10:45:24 AM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Métricas enviadas com sucesso | Horário da coleta: 2026-09-04T10:45:24.785875700
+set. 04, 2026 10:45:24 AM AgenteMonitorOre main
+INFORMAÇÕES: Ciclo 5 finalizado
+set. 04, 2026 10:45:34 AM AgenteMonitorOre main
+INFORMAÇÕES: Iniciando ciclo de monitoramento: 6
+set. 04, 2026 10:45:34 AM AgenteMonitorOre coletarMetricas
+INFORMAÇÕES: Coletando métricas do servidor
+set. 04, 2026 10:45:34 AM AgenteMonitorOre registrarMetricas
+INFORMAÇÕES: Métricas | Torre=TORRE-001 | Servidor=SERVIDOR-001 | CPU=51,43% | Memória=78,02% | Disco=57,17% | Temperatura=89,56°C | Horário=2026-09-04T10:45:34.804224400
+set. 04, 2026 10:45:34 AM AgenteMonitorOre verificarAnomalias
+INFORMAÇÕES: Verificando possíveis anomalias
+set. 04, 2026 10:45:34 AM AgenteMonitorOre verificarAnomalias
+ADVERTÊNCIA: ALERTA: memória acima do limite | Valor=78,02% | Limite=75,00%
+set. 04, 2026 10:45:34 AM AgenteMonitorOre verificarAnomalias
+ADVERTÊNCIA: ALERTA: temperatura acima do limite | Valor=89,56°C | Limite=80,00°C
+set. 04, 2026 10:45:34 AM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Enviando métricas para a API do Monitor Ore
+set. 04, 2026 10:45:34 AM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Métricas enviadas com sucesso | Horário da coleta: 2026-09-04T10:45:34.804224400
+set. 04, 2026 10:45:34 AM AgenteMonitorOre main
+INFORMAÇÕES: Ciclo 6 finalizado
+set. 04, 2026 10:45:44 AM AgenteMonitorOre main
+INFORMAÇÕES: Iniciando ciclo de monitoramento: 7
+set. 04, 2026 10:45:44 AM AgenteMonitorOre coletarMetricas
+INFORMAÇÕES: Coletando métricas do servidor
+set. 04, 2026 10:45:44 AM AgenteMonitorOre registrarMetricas
+INFORMAÇÕES: Métricas | Torre=TORRE-001 | Servidor=SERVIDOR-001 | CPU=57,93% | Memória=49,14% | Disco=59,40% | Temperatura=33,89°C | Horário=2026-09-04T10:45:44.809892100
+set. 04, 2026 10:45:44 AM AgenteMonitorOre verificarAnomalias
+INFORMAÇÕES: Verificando possíveis anomalias
+set. 04, 2026 10:45:44 AM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Enviando métricas para a API do Monitor Ore
+set. 04, 2026 10:45:44 AM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Métricas enviadas com sucesso | Horário da coleta: 2026-09-04T10:45:44.809892100
+set. 04, 2026 10:45:44 AM AgenteMonitorOre main
+INFORMAÇÕES: Ciclo 7 finalizado
+set. 04, 2026 10:45:54 AM AgenteMonitorOre main
+INFORMAÇÕES: Iniciando ciclo de monitoramento: 8
+set. 04, 2026 10:45:54 AM AgenteMonitorOre coletarMetricas
+INFORMAÇÕES: Coletando métricas do servidor
+set. 04, 2026 10:45:54 AM AgenteMonitorOre registrarMetricas
+INFORMAÇÕES: Métricas | Torre=TORRE-001 | Servidor=SERVIDOR-001 | CPU=94,74% | Memória=39,35% | Disco=32,32% | Temperatura=52,16°C | Horário=2026-09-04T10:45:54.815321500
+set. 04, 2026 10:45:54 AM AgenteMonitorOre verificarAnomalias
+INFORMAÇÕES: Verificando possíveis anomalias
+set. 04, 2026 10:45:54 AM AgenteMonitorOre verificarAnomalias
+ADVERTÊNCIA: ALERTA: CPU acima do limite | Valor=94,74% | Limite=80,00%
+set. 04, 2026 10:45:54 AM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Enviando métricas para a API do Monitor Ore
+set. 04, 2026 10:45:54 AM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Métricas enviadas com sucesso | Horário da coleta: 2026-09-04T10:45:54.815321500
+set. 04, 2026 10:45:54 AM AgenteMonitorOre main
+INFORMAÇÕES: Ciclo 8 finalizado
+set. 04, 2026 10:46:04 AM AgenteMonitorOre main
+INFORMAÇÕES: Iniciando ciclo de monitoramento: 9
+set. 04, 2026 10:46:04 AM AgenteMonitorOre coletarMetricas
+INFORMAÇÕES: Coletando métricas do servidor
+set. 04, 2026 10:46:04 AM AgenteMonitorOre registrarMetricas
+INFORMAÇÕES: Métricas | Torre=TORRE-001 | Servidor=SERVIDOR-001 | CPU=14,97% | Memória=6,58% | Disco=6,05% | Temperatura=40,91°C | Horário=2026-09-04T10:46:04.828865500
+set. 04, 2026 10:46:04 AM AgenteMonitorOre verificarAnomalias
+INFORMAÇÕES: Verificando possíveis anomalias
+set. 04, 2026 10:46:04 AM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Enviando métricas para a API do Monitor Ore
+set. 04, 2026 10:46:04 AM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Métricas enviadas com sucesso | Horário da coleta: 2026-09-04T10:46:04.828865500
+set. 04, 2026 10:46:04 AM AgenteMonitorOre main
+INFORMAÇÕES: Ciclo 9 finalizado
+set. 04, 2026 9:57:13 PM AgenteMonitorOre main
+INFORMAÇÕES: ========================================
+set. 04, 2026 9:57:13 PM AgenteMonitorOre main
+INFORMAÇÕES: Agente Monitor Ore iniciado
+set. 04, 2026 9:57:13 PM AgenteMonitorOre main
+INFORMAÇÕES: Torre: TORRE-001
+set. 04, 2026 9:57:13 PM AgenteMonitorOre main
+INFORMAÇÕES: Servidor: SERVIDOR-001
+set. 04, 2026 9:57:13 PM AgenteMonitorOre main
+INFORMAÇÕES: Data e hora: 2026-09-04T21:57:13.964273
+set. 04, 2026 9:57:13 PM AgenteMonitorOre main
+INFORMAÇÕES: ========================================
+set. 04, 2026 9:57:13 PM AgenteMonitorOre validarConfiguracao
+INFORMAÇÕES: Validando configurações do agente
+set. 04, 2026 9:57:13 PM AgenteMonitorOre validarConfiguracao
+INFORMAÇÕES: Configurações validadas com sucesso
+set. 04, 2026 9:57:13 PM AgenteMonitorOre main
+INFORMAÇÕES: Iniciando ciclo de monitoramento: 1
+set. 04, 2026 9:57:13 PM AgenteMonitorOre coletarMetricas
+INFORMAÇÕES: Coletando métricas do servidor
+set. 04, 2026 9:57:13 PM AgenteMonitorOre registrarMetricas
+INFORMAÇÕES: Métricas | Torre=TORRE-001 | Servidor=SERVIDOR-001 | CPU=9,80% | Memória=39,45% | Disco=63,92% | Temperatura=40,07°C | Horário=2026-09-04T21:57:13.979278600
+set. 04, 2026 9:57:13 PM AgenteMonitorOre verificarAnomalias
+INFORMAÇÕES: Verificando possíveis anomalias
+set. 04, 2026 9:57:13 PM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Enviando métricas para a API do Monitor Ore
+set. 04, 2026 9:57:13 PM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Métricas enviadas com sucesso | Horário da coleta: 2026-09-04T21:57:13.979278600
+set. 04, 2026 9:57:13 PM AgenteMonitorOre main
+INFORMAÇÕES: Ciclo 1 finalizado
+set. 04, 2026 9:57:23 PM AgenteMonitorOre main
+INFORMAÇÕES: Iniciando ciclo de monitoramento: 2
+set. 04, 2026 9:57:23 PM AgenteMonitorOre coletarMetricas
+INFORMAÇÕES: Coletando métricas do servidor
+set. 04, 2026 9:57:23 PM AgenteMonitorOre registrarMetricas
+INFORMAÇÕES: Métricas | Torre=TORRE-001 | Servidor=SERVIDOR-001 | CPU=58,67% | Memória=80,06% | Disco=79,47% | Temperatura=49,13°C | Horário=2026-09-04T21:57:23.998500100
+set. 04, 2026 9:57:23 PM AgenteMonitorOre verificarAnomalias
+INFORMAÇÕES: Verificando possíveis anomalias
+set. 04, 2026 9:57:24 PM AgenteMonitorOre verificarAnomalias
+ADVERTÊNCIA: ALERTA: memória acima do limite | Valor=80,06% | Limite=75,00%
+set. 04, 2026 9:57:24 PM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Enviando métricas para a API do Monitor Ore
+set. 04, 2026 9:57:24 PM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Métricas enviadas com sucesso | Horário da coleta: 2026-09-04T21:57:23.998500100
+set. 04, 2026 9:57:24 PM AgenteMonitorOre main
+INFORMAÇÕES: Ciclo 2 finalizado
+set. 04, 2026 9:57:34 PM AgenteMonitorOre main
+INFORMAÇÕES: Iniciando ciclo de monitoramento: 3
+set. 04, 2026 9:57:34 PM AgenteMonitorOre coletarMetricas
+INFORMAÇÕES: Coletando métricas do servidor
+set. 04, 2026 9:57:34 PM AgenteMonitorOre registrarMetricas
+INFORMAÇÕES: Métricas | Torre=TORRE-001 | Servidor=SERVIDOR-001 | CPU=60,37% | Memória=58,20% | Disco=65,38% | Temperatura=64,78°C | Horário=2026-09-04T21:57:34.010463300
+set. 04, 2026 9:57:34 PM AgenteMonitorOre verificarAnomalias
+INFORMAÇÕES: Verificando possíveis anomalias
+set. 04, 2026 9:57:34 PM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Enviando métricas para a API do Monitor Ore
+set. 04, 2026 9:57:34 PM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Métricas enviadas com sucesso | Horário da coleta: 2026-09-04T21:57:34.010463300
+set. 04, 2026 9:57:34 PM AgenteMonitorOre main
+INFORMAÇÕES: Ciclo 3 finalizado
+set. 04, 2026 9:57:44 PM AgenteMonitorOre main
+INFORMAÇÕES: Iniciando ciclo de monitoramento: 4
+set. 04, 2026 9:57:44 PM AgenteMonitorOre coletarMetricas
+INFORMAÇÕES: Coletando métricas do servidor
+set. 04, 2026 9:57:44 PM AgenteMonitorOre registrarMetricas
+INFORMAÇÕES: Métricas | Torre=TORRE-001 | Servidor=SERVIDOR-001 | CPU=76,66% | Memória=38,41% | Disco=8,16% | Temperatura=97,68°C | Horário=2026-09-04T21:57:44.019463300
+set. 04, 2026 9:57:44 PM AgenteMonitorOre verificarAnomalias
+INFORMAÇÕES: Verificando possíveis anomalias
+set. 04, 2026 9:57:44 PM AgenteMonitorOre verificarAnomalias
+ADVERTÊNCIA: ALERTA: temperatura acima do limite | Valor=97,68°C | Limite=80,00°C
+set. 04, 2026 9:57:44 PM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Enviando métricas para a API do Monitor Ore
+set. 04, 2026 9:57:44 PM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Métricas enviadas com sucesso | Horário da coleta: 2026-09-04T21:57:44.019463300
+set. 04, 2026 9:57:44 PM AgenteMonitorOre main
+INFORMAÇÕES: Ciclo 4 finalizado
+set. 04, 2026 9:57:54 PM AgenteMonitorOre main
+INFORMAÇÕES: Iniciando ciclo de monitoramento: 5
+set. 04, 2026 9:57:54 PM AgenteMonitorOre coletarMetricas
+INFORMAÇÕES: Coletando métricas do servidor
+set. 04, 2026 9:57:54 PM AgenteMonitorOre registrarMetricas
+INFORMAÇÕES: Métricas | Torre=TORRE-001 | Servidor=SERVIDOR-001 | CPU=28,89% | Memória=67,52% | Disco=22,14% | Temperatura=70,84°C | Horário=2026-09-04T21:57:54.039875200
+set. 04, 2026 9:57:54 PM AgenteMonitorOre verificarAnomalias
+INFORMAÇÕES: Verificando possíveis anomalias
+set. 04, 2026 9:57:54 PM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Enviando métricas para a API do Monitor Ore
+set. 04, 2026 9:57:54 PM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Métricas enviadas com sucesso | Horário da coleta: 2026-09-04T21:57:54.039875200
+set. 04, 2026 9:57:54 PM AgenteMonitorOre main
+INFORMAÇÕES: Ciclo 5 finalizado
+set. 04, 2026 9:58:04 PM AgenteMonitorOre main
+INFORMAÇÕES: Iniciando ciclo de monitoramento: 6
+set. 04, 2026 9:58:04 PM AgenteMonitorOre coletarMetricas
+INFORMAÇÕES: Coletando métricas do servidor
+set. 04, 2026 9:58:04 PM AgenteMonitorOre registrarMetricas
+INFORMAÇÕES: Métricas | Torre=TORRE-001 | Servidor=SERVIDOR-001 | CPU=29,82% | Memória=50,17% | Disco=63,30% | Temperatura=56,79°C | Horário=2026-09-04T21:58:04.052319400
+set. 04, 2026 9:58:04 PM AgenteMonitorOre verificarAnomalias
+INFORMAÇÕES: Verificando possíveis anomalias
+set. 04, 2026 9:58:04 PM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Enviando métricas para a API do Monitor Ore
+set. 04, 2026 9:58:04 PM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Métricas enviadas com sucesso | Horário da coleta: 2026-09-04T21:58:04.052319400
+set. 04, 2026 9:58:04 PM AgenteMonitorOre main
+INFORMAÇÕES: Ciclo 6 finalizado
+set. 04, 2026 9:58:14 PM AgenteMonitorOre main
+INFORMAÇÕES: Iniciando ciclo de monitoramento: 7
+set. 04, 2026 9:58:14 PM AgenteMonitorOre coletarMetricas
+INFORMAÇÕES: Coletando métricas do servidor
+set. 04, 2026 9:58:14 PM AgenteMonitorOre registrarMetricas
+INFORMAÇÕES: Métricas | Torre=TORRE-001 | Servidor=SERVIDOR-001 | CPU=85,51% | Memória=72,22% | Disco=42,28% | Temperatura=57,85°C | Horário=2026-09-04T21:58:14.065416800
+set. 04, 2026 9:58:14 PM AgenteMonitorOre verificarAnomalias
+INFORMAÇÕES: Verificando possíveis anomalias
+set. 04, 2026 9:58:14 PM AgenteMonitorOre verificarAnomalias
+ADVERTÊNCIA: ALERTA: CPU acima do limite | Valor=85,51% | Limite=80,00%
+set. 04, 2026 9:58:14 PM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Enviando métricas para a API do Monitor Ore
+set. 04, 2026 9:58:14 PM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Métricas enviadas com sucesso | Horário da coleta: 2026-09-04T21:58:14.065416800
+set. 04, 2026 9:58:14 PM AgenteMonitorOre main
+INFORMAÇÕES: Ciclo 7 finalizado
+set. 04, 2026 9:58:24 PM AgenteMonitorOre main
+INFORMAÇÕES: Iniciando ciclo de monitoramento: 8
+set. 04, 2026 9:58:24 PM AgenteMonitorOre coletarMetricas
+INFORMAÇÕES: Coletando métricas do servidor
+set. 04, 2026 9:58:24 PM AgenteMonitorOre registrarMetricas
+INFORMAÇÕES: Métricas | Torre=TORRE-001 | Servidor=SERVIDOR-001 | CPU=1,63% | Memória=34,24% | Disco=36,03% | Temperatura=58,90°C | Horário=2026-09-04T21:58:24.079690200
+set. 04, 2026 9:58:24 PM AgenteMonitorOre verificarAnomalias
+INFORMAÇÕES: Verificando possíveis anomalias
+set. 04, 2026 9:58:24 PM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Enviando métricas para a API do Monitor Ore
+set. 04, 2026 9:58:24 PM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Métricas enviadas com sucesso | Horário da coleta: 2026-09-04T21:58:24.079690200
+set. 04, 2026 9:58:24 PM AgenteMonitorOre main
+INFORMAÇÕES: Ciclo 8 finalizado
+set. 04, 2026 9:58:34 PM AgenteMonitorOre main
+INFORMAÇÕES: Iniciando ciclo de monitoramento: 9
+set. 04, 2026 9:58:34 PM AgenteMonitorOre coletarMetricas
+INFORMAÇÕES: Coletando métricas do servidor
+set. 04, 2026 9:58:34 PM AgenteMonitorOre registrarMetricas
+INFORMAÇÕES: Métricas | Torre=TORRE-001 | Servidor=SERVIDOR-001 | CPU=90,90% | Memória=79,83% | Disco=36,70% | Temperatura=75,12°C | Horário=2026-09-04T21:58:34.094939600
+set. 04, 2026 9:58:34 PM AgenteMonitorOre verificarAnomalias
+INFORMAÇÕES: Verificando possíveis anomalias
+set. 04, 2026 9:58:34 PM AgenteMonitorOre verificarAnomalias
+ADVERTÊNCIA: ALERTA: CPU acima do limite | Valor=90,90% | Limite=80,00%
+set. 04, 2026 9:58:34 PM AgenteMonitorOre verificarAnomalias
+ADVERTÊNCIA: ALERTA: memória acima do limite | Valor=79,83% | Limite=75,00%
+set. 04, 2026 9:58:34 PM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Enviando métricas para a API do Monitor Ore
+set. 04, 2026 9:58:34 PM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Métricas enviadas com sucesso | Horário da coleta: 2026-09-04T21:58:34.094939600
+set. 04, 2026 9:58:34 PM AgenteMonitorOre main
+INFORMAÇÕES: Ciclo 9 finalizado
+set. 04, 2026 9:58:44 PM AgenteMonitorOre main
+INFORMAÇÕES: Iniciando ciclo de monitoramento: 10
+set. 04, 2026 9:58:44 PM AgenteMonitorOre coletarMetricas
+INFORMAÇÕES: Coletando métricas do servidor
+set. 04, 2026 9:58:44 PM AgenteMonitorOre registrarMetricas
+INFORMAÇÕES: Métricas | Torre=TORRE-001 | Servidor=SERVIDOR-001 | CPU=19,28% | Memória=29,43% | Disco=43,81% | Temperatura=67,78°C | Horário=2026-09-04T21:58:44.110675200
+set. 04, 2026 9:58:44 PM AgenteMonitorOre verificarAnomalias
+INFORMAÇÕES: Verificando possíveis anomalias
+set. 04, 2026 9:58:44 PM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Enviando métricas para a API do Monitor Ore
+set. 04, 2026 9:58:44 PM AgenteMonitorOre enviarMetricasParaApi
+INFORMAÇÕES: Métricas enviadas com sucesso | Horário da coleta: 2026-09-04T21:58:44.110675200
+set. 04, 2026 9:58:44 PM AgenteMonitorOre main
+INFORMAÇÕES: Ciclo 10 finalizado
+set. 04, 2026 9:58:54 PM AgenteMonitorOre main
+INFORMAÇÕES: Agente Monitor Ore finalizado
+[04/09/2026 22:12:45] [INFO   ] ============================================================
+[04/09/2026 22:12:45] [INFO   ] MONITOR ORE - AGENTE DE MONITORAMENTO
+[04/09/2026 22:12:45] [INFO   ] Torre: TORRE-001 | Servidor: SERVIDOR-001
+[04/09/2026 22:12:45] [INFO   ] Agente iniciado com sucesso
+[04/09/2026 22:12:45] [INFO   ] ============================================================
+[04/09/2026 22:12:45] [INFO   ] 
+[04/09/2026 22:12:45] [INFO   ] ==================== CICLO 01 ====================
+[04/09/2026 22:12:45] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 04/09/2026 22:12:45
+CPU:          45,94%  [NORMAL]
+Memória:      95,69%  [CRÍTICO]
+Disco:        88,54%  [ATENÇÃO]
+Temperatura:  42,49°C  [NORMAL]
+Estado geral: CRÍTICO
+[04/09/2026 22:12:45] [CRÍTICO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Memória | Valor=95,69% | Entrou no nível crítico | Limite=80,00%
+[04/09/2026 22:12:45] [ATENÇÃO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Disco | Valor=88,54% | Próximo do limite crítico | Limite=90,00%
+[04/09/2026 22:12:45] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=CRÍTICO | Coleta=04/09/2026 22:12:45 | Métricas enviadas com sucesso
+[04/09/2026 22:12:45] [INFO   ] Ciclo 01 finalizado
+[04/09/2026 22:12:55] [INFO   ] 
+[04/09/2026 22:12:55] [INFO   ] ==================== CICLO 02 ====================
+[04/09/2026 22:12:55] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 04/09/2026 22:12:55
+CPU:          41,49%  [NORMAL]
+Memória:      20,69%  [NORMAL]
+Disco:        24,04%  [NORMAL]
+Temperatura:  50,05°C  [NORMAL]
+Estado geral: NORMAL
+[04/09/2026 22:12:55] [INFO   ] RECUPERADO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Memória | Valor=20,69% | Métrica voltou ao nível normal
+[04/09/2026 22:12:55] [INFO   ] RECUPERADO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Disco | Valor=24,04% | Métrica voltou ao nível normal
+[04/09/2026 22:12:55] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=NORMAL | Coleta=04/09/2026 22:12:55 | Métricas enviadas com sucesso
+[04/09/2026 22:12:55] [INFO   ] Ciclo 02 finalizado
+[04/09/2026 22:13:05] [INFO   ] 
+[04/09/2026 22:13:05] [INFO   ] ==================== CICLO 03 ====================
+[04/09/2026 22:13:05] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 04/09/2026 22:13:05
+CPU:          24,09%  [NORMAL]
+Memória:      64,26%  [NORMAL]
+Disco:        77,33%  [NORMAL]
+Temperatura:  35,48°C  [NORMAL]
+Estado geral: NORMAL
+[04/09/2026 22:13:05] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=NORMAL | Coleta=04/09/2026 22:13:05 | Métricas enviadas com sucesso
+[04/09/2026 22:13:05] [INFO   ] Ciclo 03 finalizado
+[04/09/2026 22:13:15] [INFO   ] 
+[04/09/2026 22:13:15] [INFO   ] ==================== CICLO 04 ====================
+[04/09/2026 22:13:15] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 04/09/2026 22:13:15
+CPU:          62,50%  [NORMAL]
+Memória:      89,76%  [CRÍTICO]
+Disco:        44,94%  [NORMAL]
+Temperatura:  47,53°C  [NORMAL]
+Estado geral: CRÍTICO
+[04/09/2026 22:13:15] [CRÍTICO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Memória | Valor=89,76% | Entrou no nível crítico | Limite=80,00%
+[04/09/2026 22:13:15] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=CRÍTICO | Coleta=04/09/2026 22:13:15 | Métricas enviadas com sucesso
+[04/09/2026 22:13:15] [INFO   ] Ciclo 04 finalizado
+[04/09/2026 22:13:25] [INFO   ] 
+[04/09/2026 22:13:25] [INFO   ] ==================== CICLO 05 ====================
+[04/09/2026 22:13:25] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 04/09/2026 22:13:25
+CPU:          83,92%  [CRÍTICO]
+Memória:      29,10%  [NORMAL]
+Disco:        16,59%  [NORMAL]
+Temperatura:  56,16°C  [NORMAL]
+Estado geral: CRÍTICO
+[04/09/2026 22:13:25] [CRÍTICO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=CPU | Valor=83,92% | Entrou no nível crítico | Limite=80,00%
+[04/09/2026 22:13:25] [INFO   ] RECUPERADO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Memória | Valor=29,10% | Métrica voltou ao nível normal
+[04/09/2026 22:13:25] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=CRÍTICO | Coleta=04/09/2026 22:13:25 | Métricas enviadas com sucesso
+[04/09/2026 22:13:25] [INFO   ] Ciclo 05 finalizado
+[04/09/2026 22:13:35] [INFO   ] 
+[04/09/2026 22:13:35] [INFO   ] ==================== CICLO 06 ====================
+[04/09/2026 22:13:35] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 04/09/2026 22:13:35
+CPU:          93,34%  [CRÍTICO]
+Memória:      98,01%  [CRÍTICO]
+Disco:        91,82%  [CRÍTICO]
+Temperatura:  75,98°C  [ATENÇÃO]
+Estado geral: CRÍTICO
+[04/09/2026 22:13:35] [CRÍTICO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=CPU | Valor=93,34% | Permanece acima do limite crítico | Limite=80,00%
+[04/09/2026 22:13:35] [CRÍTICO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Memória | Valor=98,01% | Entrou no nível crítico | Limite=80,00%
+[04/09/2026 22:13:35] [CRÍTICO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Disco | Valor=91,82% | Entrou no nível crítico | Limite=90,00%
+[04/09/2026 22:13:35] [ATENÇÃO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Temperatura | Valor=75,98°C | Próximo do limite crítico | Limite=80,00°C
+[04/09/2026 22:13:35] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=CRÍTICO | Coleta=04/09/2026 22:13:35 | Métricas enviadas com sucesso
+[04/09/2026 22:13:35] [INFO   ] Ciclo 06 finalizado
+[04/09/2026 22:13:45] [INFO   ] 
+[04/09/2026 22:13:45] [INFO   ] ==================== CICLO 07 ====================
+[04/09/2026 22:13:45] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 04/09/2026 22:13:45
+CPU:           8,83%  [NORMAL]
+Memória:      10,17%  [NORMAL]
+Disco:        75,02%  [NORMAL]
+Temperatura:  76,73°C  [ATENÇÃO]
+Estado geral: ATENÇÃO
+[04/09/2026 22:13:45] [INFO   ] RECUPERADO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=CPU | Valor=8,83% | Métrica voltou ao nível normal
+[04/09/2026 22:13:45] [INFO   ] RECUPERADO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Memória | Valor=10,17% | Métrica voltou ao nível normal
+[04/09/2026 22:13:45] [INFO   ] RECUPERADO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Disco | Valor=75,02% | Métrica voltou ao nível normal
+[04/09/2026 22:13:45] [ATENÇÃO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Temperatura | Valor=76,73°C | Próximo do limite crítico | Limite=80,00°C
+[04/09/2026 22:13:45] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=ATENÇÃO | Coleta=04/09/2026 22:13:45 | Métricas enviadas com sucesso
+[04/09/2026 22:13:45] [INFO   ] Ciclo 07 finalizado
+[04/09/2026 22:13:55] [INFO   ] 
+[04/09/2026 22:13:55] [INFO   ] ==================== CICLO 08 ====================
+[04/09/2026 22:13:55] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 04/09/2026 22:13:55
+CPU:          63,25%  [NORMAL]
+Memória:      14,69%  [NORMAL]
+Disco:        50,81%  [NORMAL]
+Temperatura:  49,86°C  [NORMAL]
+Estado geral: NORMAL
+[04/09/2026 22:13:55] [INFO   ] RECUPERADO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Temperatura | Valor=49,86°C | Métrica voltou ao nível normal
+[04/09/2026 22:13:55] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=NORMAL | Coleta=04/09/2026 22:13:55 | Métricas enviadas com sucesso
+[04/09/2026 22:13:55] [INFO   ] Ciclo 08 finalizado
+[04/09/2026 22:14:05] [INFO   ] 
+[04/09/2026 22:14:05] [INFO   ] ==================== CICLO 09 ====================
+[04/09/2026 22:14:05] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 04/09/2026 22:14:05
+CPU:          32,51%  [NORMAL]
+Memória:      26,14%  [NORMAL]
+Disco:        77,30%  [NORMAL]
+Temperatura:  64,47°C  [NORMAL]
+Estado geral: NORMAL
+[04/09/2026 22:14:05] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=NORMAL | Coleta=04/09/2026 22:14:05 | Métricas enviadas com sucesso
+[04/09/2026 22:14:05] [INFO   ] Ciclo 09 finalizado
+[04/09/2026 22:14:15] [INFO   ] 
+[04/09/2026 22:14:15] [INFO   ] ==================== CICLO 10 ====================
+[04/09/2026 22:14:15] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 04/09/2026 22:14:15
+CPU:          37,77%  [NORMAL]
+Memória:      63,77%  [NORMAL]
+Disco:        99,43%  [CRÍTICO]
+Temperatura:  66,01°C  [NORMAL]
+Estado geral: CRÍTICO
+[04/09/2026 22:14:15] [CRÍTICO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Disco | Valor=99,43% | Entrou no nível crítico | Limite=90,00%
+[04/09/2026 22:14:15] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=CRÍTICO | Coleta=04/09/2026 22:14:15 | Métricas enviadas com sucesso
+[04/09/2026 22:14:15] [INFO   ] Ciclo 10 finalizado
+[04/09/2026 22:14:25] [INFO   ] 
+[04/09/2026 22:14:25] [INFO   ] Agente Monitor Ore finalizado
+[04/09/2026 22:19:14] [INFO   ] ============================================================
+[04/09/2026 22:19:14] [INFO   ] MONITOR ORE - AGENTE DE MONITORAMENTO
+[04/09/2026 22:19:14] [INFO   ] Torre: TORRE-001 | Servidor: SERVIDOR-001
+[04/09/2026 22:19:14] [INFO   ] Agente iniciado com sucesso
+[04/09/2026 22:19:14] [INFO   ] ============================================================
+[04/09/2026 22:19:14] [INFO   ] 
+[04/09/2026 22:19:14] [INFO   ] ==================== CICLO 01 ====================
+[04/09/2026 22:19:14] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 04/09/2026 22:19:14
+CPU:          79,52%  [ATENÇÃO]
+Memória:      38,64%  [NORMAL]
+Disco:        78,45%  [NORMAL]
+Temperatura:  32,23°C  [NORMAL]
+Estado geral: ATENÇÃO
+[04/09/2026 22:19:14] [ATENÇÃO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=CPU | Valor=79,52% | Próximo do limite crítico | Limite=80,00%
+[04/09/2026 22:19:14] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=ATENÇÃO | Coleta=04/09/2026 22:19:14 | Métricas enviadas com sucesso
+[04/09/2026 22:19:14] [INFO   ] Ciclo 01 finalizado
+[04/09/2026 22:19:24] [INFO   ] 
+[04/09/2026 22:19:24] [INFO   ] ==================== CICLO 02 ====================
+[04/09/2026 22:19:24] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 04/09/2026 22:19:24
+CPU:          25,76%  [NORMAL]
+Memória:      78,01%  [ATENÇÃO]
+Disco:        44,53%  [NORMAL]
+Temperatura:  98,39°C  [CRÍTICO]
+Estado geral: CRÍTICO
+[04/09/2026 22:19:24] [INFO   ] RECUPERADO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=CPU | Valor=25,76% | Métrica voltou ao nível normal
+[04/09/2026 22:19:24] [ATENÇÃO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Memória | Valor=78,01% | Próximo do limite crítico | Limite=80,00%
+[04/09/2026 22:19:24] [CRÍTICO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Temperatura | Valor=98,39°C | Entrou no nível crítico | Limite=80,00°C
+[04/09/2026 22:19:24] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=CRÍTICO | Coleta=04/09/2026 22:19:24 | Métricas enviadas com sucesso
+[04/09/2026 22:19:24] [INFO   ] Ciclo 02 finalizado
+[04/09/2026 22:19:34] [INFO   ] 
+[04/09/2026 22:19:34] [INFO   ] ==================== CICLO 03 ====================
+[04/09/2026 22:19:34] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 04/09/2026 22:19:34
+CPU:          67,39%  [NORMAL]
+Memória:      64,49%  [NORMAL]
+Disco:        76,24%  [NORMAL]
+Temperatura:  75,67°C  [ATENÇÃO]
+Estado geral: ATENÇÃO
+[04/09/2026 22:19:34] [INFO   ] RECUPERADO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Memória | Valor=64,49% | Métrica voltou ao nível normal
+[04/09/2026 22:19:34] [ATENÇÃO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Temperatura | Valor=75,67°C | Saiu do nível crítico, mas ainda requer atenção
+[04/09/2026 22:19:34] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=ATENÇÃO | Coleta=04/09/2026 22:19:34 | Métricas enviadas com sucesso
+[04/09/2026 22:19:34] [INFO   ] Ciclo 03 finalizado
+[04/09/2026 22:19:44] [INFO   ] 
+[04/09/2026 22:19:44] [INFO   ] ==================== CICLO 04 ====================
+[04/09/2026 22:19:44] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 04/09/2026 22:19:44
+CPU:          41,54%  [NORMAL]
+Memória:      37,77%  [NORMAL]
+Disco:        57,76%  [NORMAL]
+Temperatura:  66,13°C  [NORMAL]
+Estado geral: NORMAL
+[04/09/2026 22:19:44] [INFO   ] RECUPERADO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Temperatura | Valor=66,13°C | Métrica voltou ao nível normal
+[04/09/2026 22:19:44] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=NORMAL | Coleta=04/09/2026 22:19:44 | Métricas enviadas com sucesso
+[04/09/2026 22:19:44] [INFO   ] Ciclo 04 finalizado
+[04/09/2026 22:19:54] [INFO   ] 
+[04/09/2026 22:19:54] [INFO   ] ==================== CICLO 05 ====================
+[04/09/2026 22:19:54] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 04/09/2026 22:19:54
+CPU:          32,68%  [NORMAL]
+Memória:       7,36%  [NORMAL]
+Disco:        56,67%  [NORMAL]
+Temperatura:  82,18°C  [CRÍTICO]
+Estado geral: CRÍTICO
+[04/09/2026 22:19:54] [CRÍTICO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Temperatura | Valor=82,18°C | Entrou no nível crítico | Limite=80,00°C
+[04/09/2026 22:19:54] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=CRÍTICO | Coleta=04/09/2026 22:19:54 | Métricas enviadas com sucesso
+[04/09/2026 22:19:54] [INFO   ] Ciclo 05 finalizado
+[04/09/2026 22:20:04] [INFO   ] 
+[04/09/2026 22:20:04] [INFO   ] ==================== CICLO 06 ====================
+[04/09/2026 22:20:04] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 04/09/2026 22:20:04
+CPU:          51,23%  [NORMAL]
+Memória:      11,93%  [NORMAL]
+Disco:        97,84%  [CRÍTICO]
+Temperatura:  77,23°C  [ATENÇÃO]
+Estado geral: CRÍTICO
+[04/09/2026 22:20:04] [CRÍTICO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Disco | Valor=97,84% | Entrou no nível crítico | Limite=90,00%
+[04/09/2026 22:20:04] [ATENÇÃO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Temperatura | Valor=77,23°C | Saiu do nível crítico, mas ainda requer atenção
+[04/09/2026 22:20:04] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=CRÍTICO | Coleta=04/09/2026 22:20:04 | Métricas enviadas com sucesso
+[04/09/2026 22:20:04] [INFO   ] Ciclo 06 finalizado
+[04/09/2026 22:20:14] [INFO   ] 
+[04/09/2026 22:20:14] [INFO   ] ==================== CICLO 07 ====================
+[04/09/2026 22:20:14] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 04/09/2026 22:20:14
+CPU:          52,75%  [NORMAL]
+Memória:      73,98%  [ATENÇÃO]
+Disco:        13,11%  [NORMAL]
+Temperatura:  39,99°C  [NORMAL]
+Estado geral: ATENÇÃO
+[04/09/2026 22:20:14] [ATENÇÃO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Memória | Valor=73,98% | Próximo do limite crítico | Limite=80,00%
+[04/09/2026 22:20:14] [INFO   ] RECUPERADO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Disco | Valor=13,11% | Métrica voltou ao nível normal
+[04/09/2026 22:20:14] [INFO   ] RECUPERADO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Temperatura | Valor=39,99°C | Métrica voltou ao nível normal
+[04/09/2026 22:20:14] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=ATENÇÃO | Coleta=04/09/2026 22:20:14 | Métricas enviadas com sucesso
+[04/09/2026 22:20:14] [INFO   ] Ciclo 07 finalizado
+[04/09/2026 22:20:24] [INFO   ] 
+[04/09/2026 22:20:24] [INFO   ] ==================== CICLO 08 ====================
+[04/09/2026 22:20:24] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 04/09/2026 22:20:24
+CPU:          68,03%  [NORMAL]
+Memória:      64,64%  [NORMAL]
+Disco:        24,07%  [NORMAL]
+Temperatura:  76,34°C  [ATENÇÃO]
+Estado geral: ATENÇÃO
+[04/09/2026 22:20:24] [INFO   ] RECUPERADO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Memória | Valor=64,64% | Métrica voltou ao nível normal
+[04/09/2026 22:20:24] [ATENÇÃO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Temperatura | Valor=76,34°C | Próximo do limite crítico | Limite=80,00°C
+[04/09/2026 22:20:24] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=ATENÇÃO | Coleta=04/09/2026 22:20:24 | Métricas enviadas com sucesso
+[04/09/2026 22:20:24] [INFO   ] Ciclo 08 finalizado
+[04/09/2026 22:20:34] [INFO   ] 
+[04/09/2026 22:20:34] [INFO   ] ==================== CICLO 09 ====================
+[04/09/2026 22:20:34] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 04/09/2026 22:20:34
+CPU:          69,95%  [NORMAL]
+Memória:      60,30%  [NORMAL]
+Disco:        47,86%  [NORMAL]
+Temperatura:  56,85°C  [NORMAL]
+Estado geral: NORMAL
+[04/09/2026 22:20:34] [INFO   ] RECUPERADO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Temperatura | Valor=56,85°C | Métrica voltou ao nível normal
+[04/09/2026 22:20:34] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=NORMAL | Coleta=04/09/2026 22:20:34 | Métricas enviadas com sucesso
+[04/09/2026 22:20:34] [INFO   ] Ciclo 09 finalizado
+[04/09/2026 22:20:44] [INFO   ] 
+[04/09/2026 22:20:44] [INFO   ] ==================== CICLO 10 ====================
+[04/09/2026 22:20:44] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 04/09/2026 22:20:44
+CPU:          38,30%  [NORMAL]
+Memória:      42,13%  [NORMAL]
+Disco:        77,04%  [NORMAL]
+Temperatura:  59,14°C  [NORMAL]
+Estado geral: NORMAL
+[04/09/2026 22:20:44] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=NORMAL | Coleta=04/09/2026 22:20:44 | Métricas enviadas com sucesso
+[04/09/2026 22:20:44] [INFO   ] Ciclo 10 finalizado
+[04/09/2026 22:20:54] [INFO   ] 
+[04/09/2026 22:20:54] [INFO   ] Agente Monitor Ore finalizado
+[04/09/2026 22:32:47] [INFO   ] ============================================================
+[04/09/2026 22:32:47] [INFO   ] MONITOR ORE - AGENTE DE MONITORAMENTO
+[04/09/2026 22:32:47] [INFO   ] Torre: TORRE-001 | Servidor: SERVIDOR-001
+[04/09/2026 22:32:47] [INFO   ] Agente iniciado com sucesso
+[04/09/2026 22:32:47] [INFO   ] ============================================================
+[04/09/2026 22:32:47] [INFO   ] 
+[04/09/2026 22:32:47] [INFO   ] ==================== CICLO 01 ====================
+[04/09/2026 22:32:47] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 04/09/2026 22:32:47
+CPU:          72,29%  [ATENÇÃO]
+Memória:      90,50%  [CRÍTICO]
+Disco:        88,03%  [ATENÇÃO]
+Temperatura:  40,91°C  [NORMAL]
+Estado geral: CRÍTICO
+[04/09/2026 22:32:47] [ATENÇÃO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=CPU | Valor=72,29% | Próximo do limite crítico | Limite=80,00%
+[04/09/2026 22:32:47] [CRÍTICO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Memória | Valor=90,50% | Entrou no nível crítico | Limite=80,00%
+[04/09/2026 22:32:47] [ATENÇÃO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Disco | Valor=88,03% | Próximo do limite crítico | Limite=90,00%
+[04/09/2026 22:32:47] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=CRÍTICO | Coleta=04/09/2026 22:32:47 | Métricas enviadas com sucesso
+[04/09/2026 22:32:47] [INFO   ] Ciclo 01 finalizado
+[04/09/2026 22:32:57] [INFO   ] 
+[04/09/2026 22:32:57] [INFO   ] ==================== CICLO 02 ====================
+[04/09/2026 22:32:57] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 04/09/2026 22:32:57
+CPU:          34,97%  [NORMAL]
+Memória:      74,67%  [ATENÇÃO]
+Disco:        82,46%  [ATENÇÃO]
+Temperatura:  50,32°C  [NORMAL]
+Estado geral: ATENÇÃO
+[04/09/2026 22:32:57] [INFO   ] RECUPERADO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=CPU | Valor=34,97% | Métrica voltou ao nível normal
+[04/09/2026 22:32:57] [ATENÇÃO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Memória | Valor=74,67% | Saiu do nível crítico, mas ainda requer atenção
+[04/09/2026 22:32:57] [ATENÇÃO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Disco | Valor=82,46% | Próximo do limite crítico | Limite=90,00%
+[04/09/2026 22:32:57] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=ATENÇÃO | Coleta=04/09/2026 22:32:57 | Métricas enviadas com sucesso
+[04/09/2026 22:32:57] [INFO   ] Ciclo 02 finalizado
+[05/09/2026 12:14:40] [INFO   ] ============================================================
+[05/09/2026 12:14:40] [INFO   ] MONITOR ORE - AGENTE DE MONITORAMENTO
+[05/09/2026 12:14:40] [INFO   ] Torre: TORRE-001 | Servidor: SERVIDOR-001
+[05/09/2026 12:14:40] [INFO   ] Agente iniciado com sucesso
+[05/09/2026 12:14:40] [INFO   ] ============================================================
+[05/09/2026 12:14:40] [INFO   ] 
+[05/09/2026 12:14:40] [INFO   ] ==================== CICLO 01 ====================
+[05/09/2026 12:14:40] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 05/09/2026 12:14:40
+CPU:           0,74%  [NORMAL]
+Memória:      77,03%  [ATENÇÃO]
+Disco:        58,00%  [NORMAL]
+Temperatura:  87,22°C  [CRÍTICO]
+Estado geral: CRÍTICO
+[05/09/2026 12:14:40] [ATENÇÃO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Memória | Valor=77,03% | Próximo do limite crítico | Limite=80,00%
+[05/09/2026 12:14:40] [CRÍTICO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Temperatura | Valor=87,22°C | Entrou no nível crítico | Limite=80,00°C
+[05/09/2026 12:14:40] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=CRÍTICO | Coleta=05/09/2026 12:14:40 | Métricas enviadas com sucesso
+[05/09/2026 12:14:40] [INFO   ] Ciclo 01 finalizado
+[05/09/2026 12:14:50] [INFO   ] 
+[05/09/2026 12:14:50] [INFO   ] ==================== CICLO 02 ====================
+[05/09/2026 12:14:50] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 05/09/2026 12:14:50
+CPU:          85,52%  [CRÍTICO]
+Memória:      60,99%  [NORMAL]
+Disco:        37,71%  [NORMAL]
+Temperatura:  95,15°C  [CRÍTICO]
+Estado geral: CRÍTICO
+[05/09/2026 12:14:50] [CRÍTICO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=CPU | Valor=85,52% | Entrou no nível crítico | Limite=80,00%
+[05/09/2026 12:14:50] [INFO   ] RECUPERADO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Memória | Valor=60,99% | Métrica voltou ao nível normal
+[05/09/2026 12:14:50] [CRÍTICO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Temperatura | Valor=95,15°C | Permanece acima do limite crítico | Limite=80,00°C
+[05/09/2026 12:14:50] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=CRÍTICO | Coleta=05/09/2026 12:14:50 | Métricas enviadas com sucesso
+[05/09/2026 12:14:50] [INFO   ] Ciclo 02 finalizado
+[05/09/2026 12:15:00] [INFO   ] 
+[05/09/2026 12:15:00] [INFO   ] ==================== CICLO 03 ====================
+[05/09/2026 12:15:00] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 05/09/2026 12:15:00
+CPU:           4,88%  [NORMAL]
+Memória:      59,12%  [NORMAL]
+Disco:        92,51%  [CRÍTICO]
+Temperatura:  94,12°C  [CRÍTICO]
+Estado geral: CRÍTICO
+[05/09/2026 12:15:00] [INFO   ] RECUPERADO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=CPU | Valor=4,88% | Métrica voltou ao nível normal
+[05/09/2026 12:15:00] [CRÍTICO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Disco | Valor=92,51% | Entrou no nível crítico | Limite=90,00%
+[05/09/2026 12:15:00] [CRÍTICO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Temperatura | Valor=94,12°C | Permanece acima do limite crítico | Limite=80,00°C
+[05/09/2026 12:15:00] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=CRÍTICO | Coleta=05/09/2026 12:15:00 | Métricas enviadas com sucesso
+[05/09/2026 12:15:00] [INFO   ] Ciclo 03 finalizado
+[05/09/2026 12:15:10] [INFO   ] 
+[05/09/2026 12:15:10] [INFO   ] ==================== CICLO 04 ====================
+[05/09/2026 12:15:10] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 05/09/2026 12:15:10
+CPU:           0,37%  [NORMAL]
+Memória:       3,46%  [NORMAL]
+Disco:        64,60%  [NORMAL]
+Temperatura:  63,33°C  [NORMAL]
+Estado geral: NORMAL
+[05/09/2026 12:15:10] [INFO   ] RECUPERADO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Disco | Valor=64,60% | Métrica voltou ao nível normal
+[05/09/2026 12:15:10] [INFO   ] RECUPERADO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Temperatura | Valor=63,33°C | Métrica voltou ao nível normal
+[05/09/2026 12:15:10] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=NORMAL | Coleta=05/09/2026 12:15:10 | Métricas enviadas com sucesso
+[05/09/2026 12:15:10] [INFO   ] Ciclo 04 finalizado
+[05/09/2026 12:15:20] [INFO   ] 
+[05/09/2026 12:15:20] [INFO   ] ==================== CICLO 05 ====================
+[05/09/2026 12:15:20] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 05/09/2026 12:15:20
+CPU:           9,33%  [NORMAL]
+Memória:      14,45%  [NORMAL]
+Disco:        43,94%  [NORMAL]
+Temperatura:  63,19°C  [NORMAL]
+Estado geral: NORMAL
+[05/09/2026 12:15:20] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=NORMAL | Coleta=05/09/2026 12:15:20 | Métricas enviadas com sucesso
+[05/09/2026 12:15:20] [INFO   ] Ciclo 05 finalizado
+[05/09/2026 12:15:30] [INFO   ] 
+[05/09/2026 12:15:30] [INFO   ] ==================== CICLO 06 ====================
+[05/09/2026 12:15:30] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 05/09/2026 12:15:30
+CPU:          93,60%  [CRÍTICO]
+Memória:      44,31%  [NORMAL]
+Disco:        69,20%  [NORMAL]
+Temperatura:  52,82°C  [NORMAL]
+Estado geral: CRÍTICO
+[05/09/2026 12:15:30] [CRÍTICO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=CPU | Valor=93,60% | Entrou no nível crítico | Limite=80,00%
+[05/09/2026 12:15:30] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=CRÍTICO | Coleta=05/09/2026 12:15:30 | Métricas enviadas com sucesso
+[05/09/2026 12:15:30] [INFO   ] Ciclo 06 finalizado
+[05/09/2026 12:15:40] [INFO   ] 
+[05/09/2026 12:15:40] [INFO   ] ==================== CICLO 07 ====================
+[05/09/2026 12:15:40] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 05/09/2026 12:15:40
+CPU:          53,11%  [NORMAL]
+Memória:      15,28%  [NORMAL]
+Disco:        81,53%  [ATENÇÃO]
+Temperatura:  30,13°C  [NORMAL]
+Estado geral: ATENÇÃO
+[05/09/2026 12:15:40] [INFO   ] RECUPERADO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=CPU | Valor=53,11% | Métrica voltou ao nível normal
+[05/09/2026 12:15:40] [ATENÇÃO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Disco | Valor=81,53% | Próximo do limite crítico | Limite=90,00%
+[05/09/2026 12:15:40] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=ATENÇÃO | Coleta=05/09/2026 12:15:40 | Métricas enviadas com sucesso
+[05/09/2026 12:15:40] [INFO   ] Ciclo 07 finalizado
+[05/09/2026 12:15:50] [INFO   ] 
+[05/09/2026 12:15:50] [INFO   ] ==================== CICLO 08 ====================
+[05/09/2026 12:15:50] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 05/09/2026 12:15:50
+CPU:          55,53%  [NORMAL]
+Memória:      57,81%  [NORMAL]
+Disco:        72,53%  [NORMAL]
+Temperatura:  47,19°C  [NORMAL]
+Estado geral: NORMAL
+[05/09/2026 12:15:50] [INFO   ] RECUPERADO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=Disco | Valor=72,53% | Métrica voltou ao nível normal
+[05/09/2026 12:15:50] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=NORMAL | Coleta=05/09/2026 12:15:50 | Métricas enviadas com sucesso
+[05/09/2026 12:15:50] [INFO   ] Ciclo 08 finalizado
+[05/09/2026 12:16:00] [INFO   ] 
+[05/09/2026 12:16:00] [INFO   ] ==================== CICLO 09 ====================
+[05/09/2026 12:16:00] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 05/09/2026 12:16:00
+CPU:          78,01%  [ATENÇÃO]
+Memória:      40,78%  [NORMAL]
+Disco:        33,38%  [NORMAL]
+Temperatura:  38,64°C  [NORMAL]
+Estado geral: ATENÇÃO
+[05/09/2026 12:16:00] [ATENÇÃO] Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=CPU | Valor=78,01% | Próximo do limite crítico | Limite=80,00%
+[05/09/2026 12:16:00] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=ATENÇÃO | Coleta=05/09/2026 12:16:00 | Métricas enviadas com sucesso
+[05/09/2026 12:16:00] [INFO   ] Ciclo 09 finalizado
+[05/09/2026 12:16:10] [INFO   ] 
+[05/09/2026 12:16:10] [INFO   ] ==================== CICLO 10 ====================
+[05/09/2026 12:16:10] [INFO   ] 
+Torre: TORRE-001 | Servidor: SERVIDOR-001
+Horário da coleta: 05/09/2026 12:16:10
+CPU:          48,72%  [NORMAL]
+Memória:      25,35%  [NORMAL]
+Disco:        56,10%  [NORMAL]
+Temperatura:  69,18°C  [NORMAL]
+Estado geral: NORMAL
+[05/09/2026 12:16:10] [INFO   ] RECUPERADO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Componente=CPU | Valor=48,72% | Métrica voltou ao nível normal
+[05/09/2026 12:16:10] [INFO   ] ENVIO | Torre=TORRE-001 | Servidor=SERVIDOR-001 | Estado=NORMAL | Coleta=05/09/2026 12:16:10 | Métricas enviadas com sucesso
+[05/09/2026 12:16:10] [INFO   ] Ciclo 10 finalizado
