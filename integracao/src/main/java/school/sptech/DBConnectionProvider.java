@@ -12,6 +12,7 @@ public class DBConnectionProvider {
 
     public DBConnectionProvider() {
         BasicDataSource basicDataSource = new BasicDataSource();
+	basicDataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         basicDataSource.setUrl(Ambiente.get("DB_URL"));
         basicDataSource.setUsername(Ambiente.get("DB_USER"));
         basicDataSource.setPassword(Ambiente.get("DB_PASSWORD"));

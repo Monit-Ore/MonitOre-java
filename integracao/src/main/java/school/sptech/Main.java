@@ -41,13 +41,6 @@ public class Main {
         // Banco de Dados
         DBConnectionProvider dbConnectionProvider = new DBConnectionProvider();
         JdbcTemplate connection = dbConnectionProvider.getConnection();
-//
-//        List<ParametroEtl> parametros = connection.query("""
-//        SELECT p.hostname, c.nome AS componente, l.atencao, l.critico
-//        FROM limite_alerta l
-//        JOIN PC_Industrial p ON p.id_pc_industrial = l.fk_pc_industrial
-//        JOIN componente c ON c.id_componente = l.fk_componente
-//        """, new BeanPropertyRowMapper<>(ParametroEtl.class));
 
         String sql = """
         SELECT p.hostname, c.nome AS componente, l.atencao, l.critico, t.nome AS torre
@@ -58,13 +51,13 @@ public class Main {
         WHERE p.hostname = ?
         """;
 
-        System.out.println("Iniciando conexão com S3");
+        System.out.println("Iniciando conexão com S3.");
         // Instanciando o cliente S3 via S3Provider
         S3Client s3Client = new S3Provider().getS3Client();
         LeitorSilver leitor = new LeitorSilver();
 
         List<Leitura> leituras = leitor.importarLeituras(
-                s3Client, "S3-BUCKET", "S3_KEY");
+                s3Client, Ambiente.get("S3_BUCKET"));
 
         int quantidade = 6;
 
@@ -75,7 +68,7 @@ public class Main {
             }
         }
 
-        System.out.println("Iniciando laço de repetição");
+        System.out.println("Puxando apenas o minuto final tratado.");
 
         for (String pc : iPcs) {
             List<Leitura> ultimas = new ArrayList<>();
@@ -85,30 +78,32 @@ public class Main {
                 }
             }
             List<ParametroEtl> limitesPc = connection.query(sql,
-                    new BeanPropertyRowMapper<>(ParametroEtl.class), "PC-VALE-01");
+                    new BeanPropertyRowMapper<>(ParametroEtl.class), "PC-VALE-02");
 //            leitura.getHostname()
-            System.out.println("Laço para limitesPc");
+            System.out.println("Verificando constância dos valores");
             for (ParametroEtl limite : limitesPc) {
-                System.out.println("Laço para limite de cada componente");
+                System.out.println("=".repeat(50));
+                System.out.println("Verificando componente: " + limite.getComponente());
                 String nivel = null;
 
                 if (acimaConstante(leituras, limite.getComponente(), limite.getCritico())) {
                     nivel = "CRÍTICO";
-                } else if (acimaConstante(leituras, limite.getComponente(), 40.0)) {
+                } else if (acimaConstante(leituras, limite.getComponente(), limite.getAtencao())) {
                     nivel = "ATENÇÃO";
                 }
 
                 if (nivel == null) {
+                    System.out.println("Nenhum chamado aberto.");
                     continue;
                 }
 
                 System.out.println("Abrindo chamado");
                 String summary = "ALERTA: [" + nivel + "]" +
-                        " *Horário:* " + leituras.getLast().getDtHrFormatada() +
-                        " - *Componente:* " + limite.getComponente().toUpperCase() +
+                        " Horário: " + leituras.getLast().getDtHrFormatada() +
+                        " - Componente: " + limite.getComponente().toUpperCase() +
                         " (" + leituras.getFirst().getValor(limite.getComponente()) + "%)" +
-                        " - *PC Industrial:* " + leituras.getFirst().getHostname() +
-                        " - *Torre:* " + limite.getTorre();
+                        " - PC Industrial: " + leituras.getFirst().getHostname() +
+                        " - Torre: " + limite.getTorre();
 
                 try {
                     // Cria uma issue no backlog do projeto informado
